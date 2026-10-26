@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Fondo base blanco -->
+  <circle cx="50" cy="50" r="46" fill="#ffffff" stroke="#0f172a" stroke-width="8" />
+  <!-- Mitad superior roja -->
+  <path d="M 4 50 A 46 46 0 0 1 96 50 Z" fill="#dc2626" />
+  <!-- Franja divisoria negra -->
+  <line x1="4" y1="50" x2="96" y2="50" stroke="#0f172a" stroke-width="8" />
+  <!-- Botón central exterior -->
+  <circle cx="50" cy="50" r="16" fill="#ffffff" stroke="#0f172a" stroke-width="8" />
+  <!-- Botón central interior -->
+  <circle cx="50" cy="50" r="6" fill="#f8fafc" stroke="#64748b" stroke-width="2" />
+</svg>
