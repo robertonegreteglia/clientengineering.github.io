@@ -61,6 +61,7 @@ export const Navbar = ({ activeTab, setActiveTab }) => {
               return (
                 <button
                   key={tab.id}
+                  id={`tab-${tab.id}`}
                   onClick={() => setActiveTab(tab.id)}
                   className={`flex items-center gap-2 px-3.5 py-1.5 rounded-full text-sm font-semibold transition-colors duration-150 whitespace-nowrap cursor-pointer ${
                     isActive
