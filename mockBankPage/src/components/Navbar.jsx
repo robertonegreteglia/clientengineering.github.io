@@ -25,6 +25,7 @@ export const Navbar = ({ activeTab, setActiveTab }) => {
           {/* Logo PokéBank */}
           <button 
             onClick={() => setActiveTab('landing')} 
+            id="pokeLogo"
             className="flex items-center gap-3 cursor-pointer group focus:outline-none"
           >
             <svg 
